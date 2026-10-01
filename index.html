@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ISM Directo | Abastece tu negocio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><div class="logo">ISM</div><div><b>ISM Directo</b><small>Abastece tu negocio</small></div></div>
+  <nav>
+    <button data-view="inicio">Inicio</button>
+    <button data-view="catalogo">Catálogo</button>
+    <button data-view="promos">Promociones</button>
+    <button data-view="pedidos">Mis pedidos</button>
+    <button data-view="ayuda">Ayuda</button>
+  </nav>
+  <div class="head-actions"><button class="icon-btn" onclick="openSupport()">💬</button><button class="cart-btn" onclick="openCart()">🛒 <span id="cartCount">0</span></button></div>
+</header>
+
+<main id="app"></main>
+
+<div id="modal" class="modal hidden"><div id="modalContent" class="modal-box"></div></div>
+
+<footer>
+  <div><b>ISM Directo</b><p>Plataforma de pedidos para bodegas, minimarkets y consumidores.</p></div>
+  <div><b>Atención</b><p>Consultas · Soporte · Seguimiento</p></div>
+  <div><b>Prototipo académico</b><p>Productos, precios, stock y entregas son demostrativos.</p></div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
